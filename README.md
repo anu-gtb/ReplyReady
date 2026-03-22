@@ -1,1 +1,1 @@
-## Email Assistant
+## About
