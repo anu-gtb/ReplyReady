@@ -1,5 +1,5 @@
 ## 📂 Project Structure
-
+---------
 email-assistant/
 ├── build.gradle                 # Dependency management & build logic
 ├── src/main/java/com/email/assistant/
@@ -12,3 +12,6 @@ email-assistant/
 │       └── WebClientConfig.java     # WebClient Bean setup
 └── src/main/resources/
     └── application.yml.example      # Configuration template
+
+
+---------
