@@ -1,16 +1,14 @@
+## 📂 Project Structure
+
 email-assistant/
-├── build.gradle               # Gradle build configuration & dependencies
-├── gradlew                    # Gradle wrapper for consistent builds
-├── src/
-│   └── main/
-│       ├── java/com/email/assistant/
-|       |   ├── app/
-|       |   |    ├── EmailGenController.java  # REST API endpoints
-│       │   |    ├── EmailGenService.java     # Business logic & AI integration
-│       │   |    ├── EmailRequest.java        # Data to be given as input by user
-|       |   |    ├── GeminiProperties.java    # Gemini API configuration beans
-|       |   |    └── WebClientConfig.java     # WebClient configuration beans
-│       │   └──  EmailAssistantApplication.java  # Email Assistant Application(Entry-point)
-│       └── resources/
-│           └── application.yml.example # Centralized application settings and API Keys
-└── README.md
+├── build.gradle                 # Dependency management & build logic
+├── src/main/java/com/email/assistant/
+│   ├── EmailAssistantApplication.java # Entry point
+│   └── app/
+│       ├── EmailGenController.java  # REST API Layer
+│       ├── EmailGenService.java     # Business & AI Logic
+│       ├── EmailRequest.java        # Input Data Model (DTO)
+│       ├── GeminiProperties.java    # API Configuration
+│       └── WebClientConfig.java     # WebClient Bean setup
+└── src/main/resources/
+    └── application.yml.example      # Configuration template
