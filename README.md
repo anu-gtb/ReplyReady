@@ -1,7 +1,7 @@
 ## 📂 Project Structure
 
 ```
-email-assistant/
+ReplyReady/
 ├── build.gradle                 # Dependency management & build logic
 ├── src/main/java/com/email/assistant/
 │   ├── EmailAssistantApplication.java # Entry point
