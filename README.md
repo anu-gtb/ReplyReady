@@ -1,17 +1,19 @@
 ## 📂 Project Structure
 ---------
-email-assistant/
+```
+`email-assistant/`
 ├── build.gradle                 # Dependency management & build logic
-├── src/main/java/com/email/assistant/
+├── `src/main/java/com/email/assistant/`
 │   ├── EmailAssistantApplication.java # Entry point
-│   └── app/
+│   └── `app/`
 │       ├── EmailGenController.java  # REST API Layer
 │       ├── EmailGenService.java     # Business & AI Logic
 │       ├── EmailRequest.java        # Input Data Model (DTO)
 │       ├── GeminiProperties.java    # API Configuration
 │       └── WebClientConfig.java     # WebClient Bean setup
-└── src/main/resources/
+└── `src/main/resources/`
     └── application.yml.example      # Configuration template
 
 
 ---------
+```
